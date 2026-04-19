@@ -56,8 +56,4 @@ if (headerImg) {
     headerImg.style.transform = `translateY(${scrollY * 0.1}px)`;
   });
 }
-
-menuBtn.addEventListener("click", () => {
-  console.log("clicked");
-  document.body.classList.toggle("menu--open");
 });
