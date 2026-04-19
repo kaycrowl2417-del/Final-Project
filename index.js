@@ -58,4 +58,9 @@ if (headerImg) {
       headerImg.style.transform = `translateY(${scrollY * 0.1}px)`;
     });
 };
+
+  window.addEventListener("scroll", () => {
+    const scrollY = window.scrollY;
+    headerImg.style.transform = `translateY(${scrollY * 0.1}px)`;
+  });
 });
