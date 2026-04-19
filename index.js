@@ -1,5 +1,7 @@
 // MENU TOGGLE
 // =========================
+document.addEventListener("DOMContentLoaded", () => {
+
 
 const body = document.body;
 const menuBtn = document.querySelector(".btn__menu");
@@ -51,13 +53,9 @@ document.addEventListener("keydown", (e) => {
 const headerImg = document.querySelector(".header__img");
 
 if (headerImg) {
-  window.addEventListener("scroll", () => {
-    const scrollY = window.scrollY;
-    headerImg.style.transform = `translateY(${scrollY * 0.1}px)`;
-  });
-}
-
-menuBtn.addEventListener("click", () => {
-  console.log("clicked");
-  document.body.classList.toggle("menu--open");
+    window.addEventListener("scroll", () => {
+      const scrollY = window.scrollY;
+      headerImg.style.transform = `translateY(${scrollY * 0.1}px)`;
+    });
+};
 });
