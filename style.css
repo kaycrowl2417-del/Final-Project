@@ -790,7 +790,7 @@ h1 {
 }
 
 .plan__button:hover {
-  background: rgb(66, 38, 66);
+  background: var(--purple-dark);
   transform: scale(1.05);
 }
 
