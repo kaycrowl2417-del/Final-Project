@@ -1344,13 +1344,6 @@ footer::before {
     display: flex;
   }
 
-  /* stack layout */
-  .row {
-    flex-direction: column;
-    text-align: center;
-    gap: var(--space-md);
-  }
-
   body {
     overflow-x: hidden;
   }
@@ -1399,6 +1392,10 @@ footer::before {
 
   .header__email {
     margin: 0 auto 32px auto;
+  }
+
+  .header__email--btn {
+    
   }
 
   .header__actions {
